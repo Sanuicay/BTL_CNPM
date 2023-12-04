@@ -1,0 +1,14 @@
+.content {
+    width: 80%; /* Adjust as needed */
+    margin-top: 20px; /* Adds some space above the content */
+    text-align: center; /* Centers the text */
+}
+.content a {
+    display: inline-block; /* Allows for padding */
+    padding: 10px; /* Adds some space around the links */
+    margin-top: 20px; /* Adds some space above the links */
+    background-color: #343a40; /* Adjust as needed */
+    color: #f8f9fa; /* Adjust as needed */
+    text-decoration: none; /* Removes underline */
+    border-radius: 5px; /* Adjust as needed */
+}

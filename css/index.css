@@ -1,0 +1,10 @@
+.logout {
+    position: absolute;
+    top: 70px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    padding: 10px 20px; /* Adjust as needed */
+    background-color: #343a40; /* Adjust as needed */
+    color: #f8f9fa; /* Adjust as needed */
+    text-decoration: none; /* Removes underline */
+    border-radius: 5px; /* Adjust as needed */
+}

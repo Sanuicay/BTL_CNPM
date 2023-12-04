@@ -1,0 +1,16 @@
+.history {
+    width: 95%; /* Adjust as needed */
+    margin-top: 20px; /* Adds some space above the content */
+    padding: 20px; /* Adds some space inside the content */
+    border-radius: 5px; /* Rounds the corners of the content */
+    background-color: #f8f9fa; /* A light grey background color */
+}
+.history h2 {
+    font-size: 24px; /* Makes the text bigger */
+    font-weight: bold; /* Makes the text bolder */
+}
+.log {
+    border-bottom: 1px solid #343a40; /* Adds a bottom border to each log entry */
+    padding-bottom: 10px; /* Adds some space below each log entry */
+    margin-bottom: 10px; /* Adds some space below each log entry */
+}

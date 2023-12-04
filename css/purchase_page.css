@@ -1,0 +1,21 @@
+form {
+    width: 100%; /* Makes the form wider */
+    display: flex; /* Arranges the form elements horizontally */
+    justify-content: center; /* Centers the form elements */
+    align-items: center; /* Centers the form elements vertically */
+    flex-wrap: wrap; /* Allows the form elements to wrap to a new line if necessary */
+}
+input[type="number"], input[type="submit"] {
+    margin-top: 20px; /* Adds some space above the form elements */
+    padding: 10px; /* Adds some space inside the form elements */
+    font-size: 16px; /* Increases the font size in the form elements */
+}
+input[type="submit"] {
+    background-color: #343a40; /* Adjust as needed */
+    color: #f8f9fa; /* Adjust as needed */
+    border-radius: 5px; /* Adjust as needed */
+}
+h2 {
+    font-size: 24px; /* Makes the text bigger */
+    font-weight: bold; /* Makes the text bolder */
+}

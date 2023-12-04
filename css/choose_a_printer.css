@@ -1,0 +1,18 @@
+.content a {
+    display: inline-block; /* Allows for padding */
+    padding: 10px; /* Adds some space around the links */
+    margin-top: 20px; /* Adds some space above the links */
+    background-color: #343a40; /* Adjust as needed */
+    color: #f8f9fa; /* Adjust as needed */
+    text-decoration: none; /* Removes underline */
+    border-radius: 5px; /* Adjust as needed */
+}
+select, input[type="submit"], input[type="file"] {
+    margin-top: 20px; 
+    padding: 10px; 
+    font-size: 16px; 
+}
+.h2 {
+    font-size: 24px; /* Makes the text bigger */
+    font-weight: bold; /* Makes the text bolder */
+}
