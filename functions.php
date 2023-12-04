@@ -17,7 +17,6 @@ function check_login($con)
 			return $user_data;
 		}
 	}
-
 	header("Location: login_BK.php");
 	die;
 

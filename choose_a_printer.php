@@ -64,12 +64,13 @@ if(isset($_POST['submit'])){
 <!DOCTYPE html>
 <html>
 <head>
+    <title>In tài liệu</title>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/choose_a_printer.css">
 </head>
 <body>
-    <title>My website</title>
+
 	<div class="header">
 		<a href="index.php">Quay về Trang chủ</a>
 	</div>
@@ -109,10 +110,10 @@ if(isset($_POST['submit'])){
         <h2>Chọn 1 File Word hoặc PDF</h2>
         <input type="file" name="file" id="file" accept=".doc,.docx,.pdf">
         <br>
-        Số lượng bản in:
+        <h2>Số lượng bản in:</h2>
         <input type="number" name="copies" id="copies" min="1" required>
         <br>
-        Chọn cỡ giấy:
+        <h2>Chọn cỡ giấy: </h2>
         <input type="radio" id="A5" name="paper_size" value="A5">
         <label for="A4">A5</label>
         <input type="radio" id="A4" name="paper_size" value="A4">
@@ -120,7 +121,7 @@ if(isset($_POST['submit'])){
         <input type="radio" id="A3" name="paper_size" value="A3">
         <label for="A3">A3</label>
         <br>
-        Chọn kiểu in:
+        <h2>Chọn kiểu in: </h2>
         <input type="radio" id="portrait" name="orientation" value="portrait">
         <label for="portrait">Dọc</label>
         <input type="radio" id="landscape" name="orientation" value="landscape">

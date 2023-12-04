@@ -11,7 +11,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My website</title>
+	<title>Lịch sử mua trang</title>
     <link rel="stylesheet" type="text/css" href="css/history.css">
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/body.css">

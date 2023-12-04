@@ -11,12 +11,12 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My website</title>
+    <title>Customer Service</title>
 </head>
 <body>
     <h1>GG</h1>
     <br>
-    <a href="index.php">Back</a>
+    <a href="index.php">Về Trang chủ</a>
     <br>
 </body>
 </html>

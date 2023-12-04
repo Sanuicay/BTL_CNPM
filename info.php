@@ -11,7 +11,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My website</title>
+	<title>Tài khoản</title>
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/body.css">
 	<link rel="stylesheet" href="css/info.css">
@@ -25,7 +25,6 @@ session_start();
     Thông tin tài khoản
     </h1>
 	Tên: <?php echo $user_data['user_realname']; ?><br>
-    ID: <?php echo $user_data['user_name']; ?><br>
     Số trang in còn lại: <?php echo $user_data['user_page_left']; ?><br>
 
     <div class="content">

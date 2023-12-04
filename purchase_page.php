@@ -11,7 +11,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My website</title>
+	<title>Mua trang in</title>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/purchase_page.css">
@@ -41,7 +41,7 @@ session_start();
                 header("Location: info.php");
                 die;
             } else {
-                echo "Invalid number of pages";
+                echo "<p style='color:red'>Số trang không hợp lệ</p>";
             }
         }
     ?>

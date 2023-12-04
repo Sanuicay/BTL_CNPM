@@ -11,12 +11,13 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Trang chủ</title>
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/body.css">
 	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-	<title>My website</title>
+
 	<div class="header">
 		<a href="index.php">Trang chủ</a>
 		<a href="info.php">Tài khoản</a>

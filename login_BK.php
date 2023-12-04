@@ -5,7 +5,6 @@ include("connection.php");
 include("functions.php");
 
 if($_SERVER['REQUEST_METHOD'] == "POST"){
-    //something was posted
 
     $username = $_POST['username'];
     $password = $_POST['password'];
@@ -25,13 +24,13 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                 }
             }
         }
-        
         echo "<script>alert('Sai tên tài khoản hoặc mật khẩu!');</script>";
     }else{
         echo "<script>alert('Vui lòng nhập đầy đủ thông tin!');</script>";
     }
 }
 ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 	<head>
@@ -68,7 +67,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 						<input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" autocomplete="false"/>
                     </div>
                     <div class="row fl-controls-left">
-                        <label for="password" class="fl-label"><span class="accesskey">M</span>ật khẩu</label>
+                        <label for="password" class="fl-label"><span class="accesskey">Mật khẩu</span></label>
 						
 						
 						<input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" autocomplete="off"/>
