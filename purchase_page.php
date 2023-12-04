@@ -36,7 +36,7 @@ session_start();
                 mysqli_query($con, $query);
                 date_default_timezone_set('Asia/Ho_Chi_Minh');
                 $date = date('d-m-Y, H:i:s');
-                $query = "update users set user_purchase_history = concat(user_purchase_history, '[$date] Đã mua $pages trang <br>\n') where user_id = '".$user_data['user_id']."' limit 1";
+                $query = "update users set user_purchase_history = concat('[$date] Đã mua $pages trang <br>\n', user_purchase_history) where user_id = '".$user_data['user_id']."' limit 1";
                 mysqli_query($con, $query);
                 header("Location: info.php");
                 die;

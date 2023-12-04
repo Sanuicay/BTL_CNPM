@@ -46,11 +46,19 @@ if(isset($_POST['submit'])){
                     if ($printer_status != 'FAILED') {
                         date_default_timezone_set('Asia/Ho_Chi_Minh');
                         $date = date('d/m/Y, H:i:s');
-                        $query = "UPDATE users SET user_print_history = CONCAT(user_print_history, ' [$date] In $total_pages trang ở máy $selected_printer <br>\n') WHERE user_id = '".$user_data['user_id']."' LIMIT 1";
+                        $query = "UPDATE users SET user_print_history = CONCAT('[$date] In $total_pages trang ở máy $selected_printer <br>\n', user_print_history) WHERE user_id = '".$user_data['user_id']."' LIMIT 1";
                         mysqli_query($con, $query);
-            
-                        header("Location: print_history.php");
-                        die;
+
+                        echo "<script>
+                        setTimeout(function() {
+                            alert('Đang in tài liệu, vui lòng đợi trong giây lát');
+                        }, 1000);
+                        setTimeout(function() {
+                            alert('Đã in xong');
+                            window.location.href = 'print_history.php';
+                        }, 5000);
+                        </script>";
+
                     }
                 }
             } else {
