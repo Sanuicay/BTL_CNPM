@@ -38,7 +38,13 @@ session_start();
                 $date = date('d-m-Y, H:i:s');
                 $query = "update users set user_purchase_history = concat('[$date] Đã mua $pages trang <br>\n', user_purchase_history) where user_id = '".$user_data['user_id']."' limit 1";
                 mysqli_query($con, $query);
-                header("Location: info.php");
+
+                echo "<script>
+                setTimeout(function() {
+                    alert('Đã mua thành công: $pages trang');
+                    window.location.href = 'info.php';
+                }, 1000);
+                </script>";
                 die;
             } else {
                 echo "<p style='color:red'>Số trang không hợp lệ</p>";

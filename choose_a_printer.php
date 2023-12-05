@@ -58,7 +58,7 @@ if(isset($_POST['submit'])){
                             window.location.href = 'print_history.php';
                         }, 5000);
                         </script>";
-
+                        unlink($filepath);
                     }
                 }
             } else {

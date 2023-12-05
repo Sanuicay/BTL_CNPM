@@ -30,7 +30,6 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     }
 }
 ?>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 	<head>
@@ -67,7 +66,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 						<input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" autocomplete="false"/>
                     </div>
                     <div class="row fl-controls-left">
-                        <label for="password" class="fl-label"><span class="accesskey">Mật khẩu</span></label>
+                        <label for="password" class="fl-label"><span class="accesskey">M</span>ật khẩu</label>
 						
 						
 						<input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" autocomplete="off"/>
@@ -86,7 +85,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                     <div class="row support">
 	                    <ul>
 	                		<li class="first">
-	                			<!-- <a href="https://account.hcmut.edu.vn/">Thay đổi mật khẩu?</a>  -->
+	                			<a href="change_password.php">Thay đổi mật khẩu?</a> 
 	                		</li>
 	                	</ul>
 	            </div>
@@ -104,8 +103,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                      
                         
 						<ul
-							><li class="first"><a href="login?service=https%3A%2F%2Fe-learning.hcmut.edu.vn%2Flogin%2Findex.php%3FauthCAS%3DCAS&locale=vi">Tiếng Việt</a></li
-							><li><a href="login?service=https%3A%2F%2Fe-learning.hcmut.edu.vn%2Flogin%2Findex.php%3FauthCAS%3DCAS&locale=en">Tiếng Anh	</a></li
+							><li class="first"><a href="login_BK.php">Tiếng Việt</a></li
+							><li><a href="login_BK_EN.php">Tiếng Anh	</a></li
 						></ul>
                      
                    
