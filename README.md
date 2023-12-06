@@ -1,16 +1,18 @@
 # Assignment_CNPM
-Yêu cầu:
-php v8.2.4+
-composer
-laminas
-phpoffice
-setasign
 
-Hướng dẫn sử dụng:
-- Host:
-+ Setup một database (theo file database/database.sql) và thêm những dữ liệu cần thiết như tài khoản, máy in.
-+ Kết nối với database đó bằng cách chỉnh sửa file connection.php
-+ Setup một website với thư mục chứa những file này
+## Requirements
+- PHP v8.2.4+
+- Composer
+- Laminas
+- PhpOffice
+- SetaSign
 
-- User:
-+ Kết nối với webiste bằng một trình duyệt tùy chọn rồi đăng nhập.
+## Instructions
+
+### For Host:
+1. Setup a database (according to the `database/database.sql` file) and add necessary data such as accounts, printers.
+2. Connect to the database by editing the `connection.php` file.
+3. Setup a website with the directory containing these files.
+
+### For User:
+1. Connect to the website using a browser of your choice and log in.
