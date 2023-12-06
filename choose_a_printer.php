@@ -122,8 +122,6 @@ if(isset($_POST['submit'])){
         <input type="number" name="copies" id="copies" min="1" required>
         <br>
         <h2>Chọn cỡ giấy: </h2>
-        <input type="radio" id="A5" name="paper_size" value="A5">
-        <label for="A4">A5</label>
         <input type="radio" id="A4" name="paper_size" value="A4">
         <label for="A4">A4</label>
         <input type="radio" id="A3" name="paper_size" value="A3">

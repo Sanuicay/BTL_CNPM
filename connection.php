@@ -1,9 +1,9 @@
 <?php
 
-$dbhost = "localhost:3307";
+$dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
-$dbname = "cnpm";
+$dbname = "";
 
 if(!$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname))
 {
